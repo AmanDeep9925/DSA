@@ -1,3 +1,5 @@
+package MinMaxArray;
+
 import java.util.Scanner;
 
 /**

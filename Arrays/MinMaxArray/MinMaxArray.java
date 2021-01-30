@@ -1,3 +1,4 @@
+package MinMaxArray;
 /**
  * MinMaxArray
  */
