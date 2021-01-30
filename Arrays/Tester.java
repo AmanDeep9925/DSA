@@ -1,6 +1,6 @@
 package ReverseArray;
 /**
- * Main
+ * Tester
  */
 public class Tester {
 
@@ -19,5 +19,7 @@ public class Tester {
         // * Print the result
 
         ArrayUtil.print(arr);
+
+        
     }
 }
