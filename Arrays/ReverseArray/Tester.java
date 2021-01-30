@@ -4,8 +4,8 @@
  */
 public class Tester {
 
-    // public static ArrayUtil arrayUtil = new ArrayUtil();
-    // public static ReverseArray reverseArray = new ReverseArray();
+    public static ArrayUtil arrayUtil = new ArrayUtil();
+    public static ReverseArray reverseArray = new ReverseArray();
 
     public static void main(String[] args) {
         
