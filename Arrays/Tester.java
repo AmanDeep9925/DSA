@@ -9,6 +9,7 @@ public class Tester {
     public static KthSmallest kthSmallest = new KthSmallest();
     public static KthLargest kthLargest = new KthLargest();
     public static Sort012 sort012 = new Sort012();
+    public static MoveAllNegatives moveAllNegatives = new MoveAllNegatives();
 
     public static void main(String[] args) {
         
@@ -34,8 +35,9 @@ public class Tester {
         // System.out.println(KthLargest.findKthLargestMaxHeap(arr, 3));
         // System.out.println(KthLargest.findKthLargestMinHeap(arr, 3));
 
-        Sort012.sort012(arr);
-
+        // Sort012.sort012(arr);
+        
+        MoveAllNegatives.moveAllNegatives(arr);
         ArrayUtil.print(arr);
     }
 }
