@@ -10,6 +10,7 @@ public class Tester {
     public static KthLargest kthLargest = new KthLargest();
     public static Sort012 sort012 = new Sort012();
     public static MoveAllNegatives moveAllNegatives = new MoveAllNegatives();
+    public static RotateArray rotateArray = new RotateArray();
 
     public static void main(String[] args) {
         
@@ -37,7 +38,10 @@ public class Tester {
 
         // Sort012.sort012(arr);
         
-        MoveAllNegatives.moveAllNegatives(arr);
+        // MoveAllNegatives.moveAllNegatives(arr);
+        
+        RotateArray.rotate(arr);
         ArrayUtil.print(arr);
+        
     }
 }
