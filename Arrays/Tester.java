@@ -8,6 +8,7 @@ public class Tester {
     public static MinMaxArray min_max_Array = new MinMaxArray();
     public static KthSmallest kthSmallest = new KthSmallest();
     public static KthLargest kthLargest = new KthLargest();
+    public static Sort012 sort012 = new Sort012();
 
     public static void main(String[] args) {
         
@@ -30,7 +31,11 @@ public class Tester {
         // System.out.println(KthSmallest.findKthSmallestMinHeap(arr, 3));
         // System.out.println(KthSmallest.findKthSmallestMaxHeap(arr, 3));
 
-        System.out.println(KthLargest.findKthLargestMinHeap(arr, 3));
-        System.out.println(KthLargest.findKthLargestMaxHeap(arr, 3));
+        // System.out.println(KthLargest.findKthLargestMaxHeap(arr, 3));
+        // System.out.println(KthLargest.findKthLargestMinHeap(arr, 3));
+
+        Sort012.sort012(arr);
+
+        ArrayUtil.print(arr);
     }
 }
