@@ -1,5 +1,3 @@
-package ReverseArray;
-
 /**
  * ReverseArray
  */
