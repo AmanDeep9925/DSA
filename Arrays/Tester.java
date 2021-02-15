@@ -6,6 +6,8 @@ public class Tester {
     public static ArrayUtil arrayUtil = new ArrayUtil();
     public static ReverseArray reverseArray = new ReverseArray();
     public static MinMaxArray min_max_Array = new MinMaxArray();
+    public static KthSmallest kthSmallest = new KthSmallest();
+    public static KthLargest kthLargest = new KthLargest();
 
     public static void main(String[] args) {
         
@@ -20,9 +22,15 @@ public class Tester {
 
         // ArrayUtil.print(arr);
 
-        Pair min_max = MinMaxArray.arrayMinMax(arr);
+        // Pair min_max = MinMaxArray.arrayMinMax(arr);
 
-        System.out.println("Minimum in array : " + min_max.min);
-        System.out.println("Maximum in array : " + min_max.max);
+        // System.out.println("Minimum in array : " + min_max.min);
+        // System.out.println("Maximum in array : " + min_max.max);
+
+        // System.out.println(KthSmallest.findKthSmallestMinHeap(arr, 3));
+        // System.out.println(KthSmallest.findKthSmallestMaxHeap(arr, 3));
+
+        System.out.println(KthLargest.findKthLargestMinHeap(arr, 3));
+        System.out.println(KthLargest.findKthLargestMaxHeap(arr, 3));
     }
 }
