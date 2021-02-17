@@ -12,6 +12,8 @@ public class Tester {
     public static MoveAllNegatives moveAllNegatives = new MoveAllNegatives();
     public static RotateArray rotateArray = new RotateArray();
     public static Kadanes kadanes = new Kadanes();
+    public static MinimizeHeights minimizeHeights = new MinimizeHeights();
+    public static MinimumJumps minimumJumps = new MinimumJumps();
 
     public static void main(String[] args) {
         
@@ -48,7 +50,13 @@ public class Tester {
 
         // System.out.println(maxSumOfContinousSubArray);
 
-        Kadanes.printMaxSumSubarray(arr);
+        // Kadanes.printMaxSumSubarray(arr);
+
+        // int minHeight = MinimizeHeights.minimizeHeights(arr, 10);
+        // System.out.println(minHeight);
+
+        int minJumps = MinimumJumps.minJumpsV1(arr);
+        System.out.println(minJumps);
 
     }
 }
