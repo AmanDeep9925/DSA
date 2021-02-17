@@ -11,6 +11,7 @@ public class Tester {
     public static Sort012 sort012 = new Sort012();
     public static MoveAllNegatives moveAllNegatives = new MoveAllNegatives();
     public static RotateArray rotateArray = new RotateArray();
+    public static Kadanes kadanes = new Kadanes();
 
     public static void main(String[] args) {
         
@@ -40,8 +41,14 @@ public class Tester {
         
         // MoveAllNegatives.moveAllNegatives(arr);
         
-        RotateArray.rotate(arr);
-        ArrayUtil.print(arr);
+        // RotateArray.rotate(arr);
+        // ArrayUtil.print(arr);
         
+        // int maxSumOfContinousSubArray = Kadanes.maxSubArraySum(arr);
+
+        // System.out.println(maxSumOfContinousSubArray);
+
+        Kadanes.printMaxSumSubarray(arr);
+
     }
 }
