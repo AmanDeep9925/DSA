@@ -14,7 +14,10 @@ public class Tester {
     public static Kadanes kadanes = new Kadanes();
     public static MinimizeHeights minimizeHeights = new MinimizeHeights();
     public static MinimumJumps minimumJumps = new MinimumJumps();
-
+    public static FindDuplicate findDuplicate = new FindDuplicate();
+    public static MergeIntervals mergeIntervals = new MergeIntervals();
+    public static NextPermutation nextPermutation = new NextPermutation();
+    
     public static void main(String[] args) {
         
         // * take input from the user
@@ -55,8 +58,25 @@ public class Tester {
         // int minHeight = MinimizeHeights.minimizeHeights(arr, 10);
         // System.out.println(minHeight);
 
-        int minJumps = MinimumJumps.minJumpsV1(arr);
-        System.out.println(minJumps);
+        // int minJumps = MinimumJumps.minJumpsV1(arr);
+        // System.out.println(minJumps);
+
+        // int duplicate = FindDuplicate.findDuplicate(arr);
+        // System.out.println(duplicate);
+
+        // int[][] intervals = { { 1, 3 }, { 2, 6 }, { 8, 10 }, { 15, 18 }};
+
+        // int[][] mergedIntervals = MergeIntervals.mergeIntervalas(intervals);
+
+        // for (int i = 0; i < mergedIntervals.length; ++i) {
+        //     for (int j = 0; j < mergedIntervals[i].length; ++j) {
+        //         System.out.print(mergedIntervals[i][j] + " ");
+        //     }
+        //     System.out.println();
+        // }
+
+        NextPermutation.nextPermutation(arr);
+        ArrayUtil.print(arr);
 
     }
 }
