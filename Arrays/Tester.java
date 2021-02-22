@@ -1,7 +1,11 @@
+import java.util.Scanner;
+
 /**
  * Tester
  */
 public class Tester {
+
+    static Scanner input = new Scanner(System.in);
 
     public static ArrayUtil arrayUtil = new ArrayUtil();
     public static ReverseArray reverseArray = new ReverseArray();
@@ -17,6 +21,8 @@ public class Tester {
     public static FindDuplicate findDuplicate = new FindDuplicate();
     public static MergeIntervals mergeIntervals = new MergeIntervals();
     public static NextPermutation nextPermutation = new NextPermutation();
+    public static StockExchange stockExchange = new StockExchange();
+    public static PairWithKSum pairWithKSum = new PairWithKSum();
     
     public static void main(String[] args) {
         
@@ -75,8 +81,14 @@ public class Tester {
         //     System.out.println();
         // }
 
-        NextPermutation.nextPermutation(arr);
-        ArrayUtil.print(arr);
+        // NextPermutation.nextPermutation(arr);
+        // ArrayUtil.print(arr);
+
+        // System.out.println(StockExchange.bestTimeToSell(arr));
+
+        int sum = input.nextInt();
+
+        System.out.println(PairWithKSum.countPairWithKSum(arr, sum));
 
     }
 }
